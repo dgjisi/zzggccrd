@@ -100,7 +100,7 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["yuchi.eu.org"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["rd.jisicn.cf"];
 pub const PUBLIC_RS_PUB_KEY: &str = "YcoJN1ykkjpPhI7SotjJCgYnxMTq6CyeIu06Ouc77GU=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
